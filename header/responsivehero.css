@@ -1,0 +1,65 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: sans-serif;
+}
+.hero-image{
+    background: url(./bg-1.jpeg) no-repeat center;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align:center;
+    color: lightslategray;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container h1{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+}
+.container h1 span{
+    border: 10px solid lightslategray;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.des{
+    margin: 20px;
+    display: block;
+    font-size: 26px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.6);
+    color: lightpink;
+}
+
+.btn{
+    color: lightslategray;
+    padding: 10px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #f1f1f1;
+    border: 1px solid lightslategray;
+    border-radius: 12px;
+    transition: 0.3s all;
+}
+.btn:hover{
+    opacity: 0.8;
+    background: lightpink;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+body{
+    background: url(./pexels-photo-2305005.jpeg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+ul{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    color: white;
+}
+ul li{
+    float: left;
+    width: 200px;
+    height:40px;
+    background-color: black;
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right:2px ;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    /* transition: transform 2s; */
+
+}
+ul li a:hover{
+    background-color:orange;
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+
+}
+
+
+
+
+
